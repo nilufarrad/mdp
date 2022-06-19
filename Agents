@@ -3,8 +3,8 @@ import sys
 import os 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from SUs.SU import SU
-from Policies.Policy import *
+from SUs import SU
+from Policies import *
 
 class Agent(SU): 
     
