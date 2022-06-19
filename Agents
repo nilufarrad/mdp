@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from SUs import SU
-from Policies import *
+from policies import *
 
 class Agent(SU): 
     
