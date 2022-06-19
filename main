@@ -1,6 +1,6 @@
 import torch 
 import matplotlib.pyplot as plt 
-from Env import Env
+from env import Env
 from Agents import *
 
 from memory import *
